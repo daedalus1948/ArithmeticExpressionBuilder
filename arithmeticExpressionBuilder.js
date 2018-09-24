@@ -77,7 +77,7 @@ class Calculator {
     processInput (input) {
         this.current = this.createToken(input);
         if (this.check(this.expression, this.current, this.previous)) { // if token passes grammar rules
-            this.modifyExpressionState(this.expression, this.current); // modify expression state for grammar validation
+            this.modifyExpressionState(this.expression, this.current); // modify expression state for future grammar validation
             this.previous = this.current; // previous value necesarry for various grammar rules
         };
         console.log(this.expression.raw);
