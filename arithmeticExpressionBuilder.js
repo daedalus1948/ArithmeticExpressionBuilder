@@ -4,7 +4,7 @@
 // The expression rules can also be modified if necesarry
 // the expression itself has certain special states - valid (based on the last input type)
 // and the float state based on whether the input contains an "unfinished" (a floating point operator
-// has been parsed but the following arithmetic operator has not been encountered yet) floating point number
+// had been parsed but the following arithmetic operator has not been encountered yet) floating point number
 
 class Calculator {
     constructor() {
